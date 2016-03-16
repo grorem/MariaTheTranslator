@@ -141,27 +141,32 @@ color:#333333;
 }
 
 .preFooter{
-
   width:100%;
-  height:80px;
+  height:120px;
   background:#2A1330;
-
-
+  padding:2% 5% 1%;
+  color:#fff;
+  text-align: center;
 }
 
 .footer{
-
+  color:#fff;
   width:100%;
-  height:420px;
+  height:520px;
   background:#331F38;
   padding:5%;
+}
+
+.footer p{
+  font-size:16px;
+  max-width:80%;
 
 }
 
   #group1 {
     z-index: 5; /* slide over group 2 */
       height:100%;
-      margin-bottom: 300px;
+      margin-bottom: 220px;
   }
   #group1 .parallax__layer--base {
     background: url('../img/header-21.png');
@@ -172,6 +177,7 @@ color:#333333;
 
   #group2 {
     z-index: 3; /* slide under groups 1 and 3 */
+    margin-bottom: 50px;
 
   }
   #group2 .parallax__layer--back {
@@ -183,6 +189,8 @@ color:#333333;
 
   #group3 {
     z-index: 4; /* slide over group 2 and 4 */
+    margin-bottom: 150px;
+    height:80vh;
   }
   #group3 .parallax__layer--base img{
     max-width: 90%;
@@ -284,7 +292,7 @@ color:#333333;
 .workIntro{
   text-align: right;
   color:#333333;
-  width:50%;
+  width:80%;
   font-size:18px;
   margin:auto;
 
@@ -292,11 +300,16 @@ color:#333333;
 }
 
 .workIntro p{
-  font-family: thin;
+  font-family: light;
   text-align: center;
 }
 
 .workIntro h2{
+  color:#333333;
+  text-align: center;
+}
+
+.workIntro h3{
   color:#333333;
   text-align: center;
 }
@@ -350,7 +363,7 @@ color:#333333;
 p{
 
 font-size:16;
-font-family: thin;
+font-family: light;
 }
 
 
@@ -370,24 +383,39 @@ font-family: thin;
 
 .signupforms{
 
-  width:350px;
+  width:450px;
   padding:15px;
   margin:5px;
-  border:none;
-  font-size:25px;
-
-
-  -moz-border-radius: 8px;
-   -webkit-border-radius: 8px;
-   -khtml-border-radius: 8px;
-   border-radius: 8px;
-
-
-
-
+  border:solid 1px;
+  border-color:#C76556;
+  font-size:16px;
+  font-family:thin;
+  color:#C76556;
+  background:none;
 }
 
+::-webkit-input-placeholder {
+   color: #C76556;
+}
 
+:-moz-placeholder { /* Firefox 18- */
+   color: #C76556;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #C76556;
+}
+
+:-ms-input-placeholder {
+   color: #C76556;
+}
+
+textarea:focus, input:focus{
+    outline: #fff;
+    box-shadow: 0 0 10px #C76556;
+}
+
+.blonk{display:none}
 
 .button{
   margin-right:15px;
@@ -402,8 +430,6 @@ font-family: thin;
 
 -webkit-transition: background-color 500ms, color 500ms;
  transition: background-color 500ms, color 500ms;
-
-
 
 }
 
@@ -451,18 +477,22 @@ font-family: thin;
 
 .submit{
 
-  width:350px;
-  padding:15px;
-  margin:5px;
-  border:none;
-  background:#03B861;
-  color:white;
-  font-size:25px;
+  font-size:18px;
+  font-family: light;
+  text-align: center;
+  color: #fff;
+  background: #C76556;
+  padding:2% 2% 2.5% 2%;
+  width:300px;
+  border:solid 1px;
+  border-color:#C76556;
+  margin-top:7px;
+  margin-left:5px;
 
-  -moz-border-radius: 8px;
-   -webkit-border-radius: 8px;
-   -khtml-border-radius: 8px;
-   border-radius: 8px;
+      -webkit-transition: background-color ease-out .25s;
+      -moz-transition: background-color ease-out .25s;
+      -o-transition: background-color ease-out .25s;
+      transition: background-color ease-out .25s;
 
 
    -webkit-transition: background-color 500ms, color 500ms;
@@ -473,8 +503,8 @@ font-family: thin;
 
 .submit:hover{
 
-  color:#03B861;
-  background:#24587A;
+  color:#C76556;
+  background:#fff;
 
   -webkit-transition: background-color 500ms, color 500ms;
    transition: background-color 500ms, color 500ms;
@@ -542,7 +572,7 @@ h2{
 
 h3{
 	font-family: 'Vollkorn', serif;
-	color: #fff;
+	color: #333333;
 	font-size: 28px;
 
 }
@@ -1144,7 +1174,7 @@ border-radius: 6px;
 .mid p{
 
   font-size:18px;
-  font-family:thin;
+  font-family:light;
 
 }
 
@@ -1341,7 +1371,7 @@ text-decoration: none;
 
 
 .blurblr p{
-  font-family: thin;
+  font-family: light;
   padding-left:15px;
   width:250px;
   border-left:solid 2px;

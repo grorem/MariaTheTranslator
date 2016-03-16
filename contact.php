@@ -9,8 +9,8 @@
     $from = 'From: Rorem Law Website Contact Form';
 
 
-    $to = 'mark.rorem@gmail.com';
-    $subject = 'Rorem Law Website Contact Form Submission';
+    $to = 'gmrorem@gmail.com.com';
+    $subject = 'Translation Website Submission';
 
     $body = "From: $name\n\n E-Mail: $email\n\n Message:\n\n $message";
 
